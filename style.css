@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #11ffac;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+.container {
+    text-align: center;
+    background-color: #121212;
+    box-shadow: 6px 4px 10px #00000060;
+    padding-inline: 50px;
+    padding-block: 30px;
+    border-radius: 30px;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #f0f0f0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #11ffac;
+}
+
+#gameBoard {
+    width: 80vh;
+    height: 40vh;
+    margin: 20px auto;
+    background-color: #11ffac;
+    position: relative;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000000; /* Add border to cells */
+    box-sizing: border-box; /* Ensure border size is included in cell dimensions */
+    z-index: 100;
+}
+
+#score {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #121212;
+    background-color: #11ffac;
+    width: 100px;
+    height: auto;
+    padding: 1%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    margin: 0 auto; /* Center horizontally within its parent (if necessary) */
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: #121212;
+    border-radius: 30%;
+    position: absolute;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    border-radius: 30%;
+}
+
+.game-over {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    border-radius: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+}
