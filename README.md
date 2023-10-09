@@ -32,6 +32,8 @@ To run the game locally on your machine, follow these steps:
    Open Index.html
    
 2. Controls:
-  a. Use the arrow keys (Up, Down, Left, Right) to control the snake's direction.
-  b. Click the "Start Game" button to begin the game.
-  c. Click the "Restart Game" button to restart the game after losing.
+   ```bash
+     a. Use the arrow keys (Up, Down, Left, Right) to control the snake's direction.
+     b. Click the "Start Game" button to begin the game.
+     c. Click the "Restart Game" button to restart the game after losing.
+   ```
