@@ -2,8 +2,10 @@
 
 A simple Snake game built using HTML, CSS, and JavaScript. Play the classic Snake game where you control a snake and try to eat food to grow longer without colliding with the walls or yourself.
 
+<a align="center">
 ![Snake Game Screenshot](WebPageImage.png)
 ![Snake Game Screenshot](WebPageImageGameplay.png)
+<a/>
 
 ## Features
 
